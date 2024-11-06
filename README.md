@@ -57,6 +57,7 @@ yc container registry configure-docker
 ### 5. Укажите имя и тэг образа в файле main.tf 
 
 docker_image_name = "image-name"
+
 tag               = "latest"
 
 ### Запуск проекта
