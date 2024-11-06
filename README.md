@@ -62,14 +62,14 @@ tag               = "latest"
 
 ### Запуск проекта
 
-terraform init
+    - `terraform init` — инициализация Terraform;
 
-terraform plan
+    - `terraform plan` — просмотр изменений, которые будут применены;
 
-terraform apply
+    - `terraform apply` — применение изменений и создание образа.
 
 ### Удаление ресурсов
 
 !!! Перед удалением всех ресурсов необходимо удалить образ(ы) из вашего репозитория.
 
-terraform destroy
+    - `terraform destroy`
