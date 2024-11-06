@@ -41,24 +41,24 @@ cd yc-container-registry/
 
 команда powershell:
 
-. .\set_env.ps1
+    . .\set_env.ps1
 
 команда linux:
 
-chmod +x set_env.sh && ./set_env.sh
+    chmod +x set_env.sh && ./set_env.sh
 
 ### 3. Аутентифицируйтесь в Yandex Container Registry с помощью Docker Credential helper.
 
-yc container registry configure-docker
+    yc container registry configure-docker
  
 
 ### 4. Отредактируйте Dockerfile для сборки вашего образа в папке config-app
 
 ### 5. Укажите имя и тэг образа в файле main.tf 
 
-docker_image_name = "image-name"
+    docker_image_name = "image-name"
 
-tag               = "latest"
+    tag               = "latest"
 
 ### Запуск проекта
 
